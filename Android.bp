@@ -441,27 +441,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.frcmc-service.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.frcmc-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.health-service.xml",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.health-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.security.fkeymaster-service.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.fkeymaster-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
