@@ -309,12 +309,10 @@ PRODUCT_PACKAGES += \
     com.samsung.sensor.s5kgn3 \
     com.samsung.sensor.s5khp2 \
     cdsp_face \
-    com.qti.chiusecaseselector \
     com.qti.qseeaon \
     com.qti.qseeutils \
     com.qti.settings.sm8550 \
     com.qti.stats.common \
-    com.qualcomm.mcx.distortionmapper \
     com.qualcomm.qti.dpm.api@1.0 \
     eglSubDriverAndroid \
     libEGL_adreno \
@@ -332,7 +330,6 @@ PRODUCT_PACKAGES += \
     camera.unihal.default \
     gatekeeper.mdfpp \
     sensors.dynamic_sensor_hal \
-    sound_trigger.primary.kalama \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -356,14 +353,12 @@ PRODUCT_PACKAGES += \
     libBlurDetectionDeepLearning.camera.samsung \
     libCB \
     libDLInterface.camera.samsung \
-    libDepthBokehVideo_interface \
     libDeviceInfoProvider \
     libDocumentDetector.uniplugin@1.0 \
     libEventFinder.camera.samsung \
     libEvrcSwCodec \
     libFace3DTA \
     libFace3D_hlos \
-    libFaceService \
     libFace_Landmark_API.camera.samsung \
     libFastUWDistortionCorrection.camera.samsung \
     libFlacSwDec \
@@ -456,12 +451,6 @@ PRODUCT_PACKAGES += \
     libar-gpr \
     libar-gsl \
     libar-pal \
-    libarcsoft_aieffectpk_cinematic \
-    libarcsoft_aieffectpk_detection \
-    libarcsoft_aieffectpk_video \
-    libarcsoft_aieffectpk_video_bokeh \
-    libarcsoft_aieffectpk_video_plight \
-    libarcsoft_aiscenedetection \
     libarcsoft_deflicker_native \
     libarcsoft_dualcam_portraitlighting_preview \
     libarcsoft_object_tracking \
@@ -486,12 +475,14 @@ PRODUCT_PACKAGES += \
     libbtnv \
     libc++_shared \
     libc2filterplugin \
+    libcamxcommonutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
     libcamxhwnodecontext \
     libcamxifestriping \
     libcamxqsatalgo \
+    libcamxsettingsmanager \
     libcamxstatscore \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
@@ -543,10 +534,8 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_stub \
     libfastcvopt \
     libfeutils \
-    libfidoauthnr_v2 \
     libfloatingfeature \
     libfloatingfeature_hal \
-    libfmpal \
     libfocuspeaking \
     libfocuspeaking.uniplugin@1.0 \
     libformatConverter.unifunc \
@@ -577,10 +566,9 @@ PRODUCT_PACKAGES += \
     libhermes \
     libhermes_bdbridge \
     libhermes_cred \
-    libhfp_pal \
     libhme \
     libhwvault \
-    libhyper \
+    libhyper_vendor \
     libhypermotion_core \
     libhypermotion_interface \
     libhypervintf \
@@ -642,7 +630,6 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdmimgload \
     libmdsprpc \
-    libmeminfo \
     libmemutils \
     libmfGhostDetection \
     libmfec \
@@ -776,7 +763,7 @@ PRODUCT_PACKAGES += \
     libsecfr_engine \
     libsecfr_model \
     libsecnativefeature \
-    libsecril-client \
+    libsecril-client_vendor \
     libsecureui_svcsock \
     libsegmentationeffect.uniplugin@1.0 \
     libsegmentationeffect_capture.uniplugin@1.0 \
@@ -788,7 +775,6 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libsfp_sensor \
     libsfp_teegw \
-    libsfplugin_ccodec_utils \
     libshctrl \
     libshotsuggestion \
     libshotsuggestion_engines \
@@ -892,7 +878,6 @@ PRODUCT_PACKAGES += \
     libshoebox \
     libswdap \
     libswspatializer \
-    spatializer-aidl-cpp \
     unihal_android \
     unihal_cutils \
     unihal_entry \
@@ -919,7 +904,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory@2.7 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
-    vendor.qti.diaghal@1.0 \
+    vendor.qti.diaghal@1.0_vendor \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.gnss-V4-ndk \
     vendor.qti.gnss-service \
@@ -932,7 +917,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.camera.postproc@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
@@ -973,6 +957,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
+    vendor.qti.qspmhal@1.0 \
     vendor.samsung.hardware.audio@1.0 \
     vendor.samsung.hardware.biometrics.fingerprint-V1-ndk \
     vendor.samsung.hardware.bluetooth.a2dpsink@1.0 \
@@ -990,7 +975,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.channel-V1-ndk \
     vendor.samsung.hardware.radio.data-V1-ndk \
     vendor.samsung.hardware.radio.messaging-V1-ndk \
-    vendor.samsung.hardware.radio.network-V1-ndk \
     vendor.samsung.hardware.radio.sim-V1-ndk \
     vendor.samsung.hardware.security.drk-V1-ndk \
     vendor.samsung.hardware.security.drk@2.0 \
@@ -1115,7 +1099,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.keymaster@4.0-strongbox-service-qti \
     android.hardware.secure_element@1.2-service \
-    android.hardware.security.keymint-service \
+    android.hardware.security.keymint-service.samsung \
     nxp.android.hardware.nfc@1.2-service \
     rild \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
