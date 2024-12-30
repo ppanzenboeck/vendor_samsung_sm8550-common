@@ -21396,9 +21396,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.security.keymint-service.xml",
+    name: "android.hardware.security.keymint-service-qti.xml",
     owner: "samsung",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.xml",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -21983,13 +21983,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.security.keymint-service.samsung",
-    stem: "android.hardware.security.keymint-service",
+    name: "android.hardware.security.keymint-service-qti",
     owner: "samsung",
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.security.keymint-service",
+                "proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti",
             ],
             shared_libs: [
                 "android.hardware.security.rkp-V3-ndk",

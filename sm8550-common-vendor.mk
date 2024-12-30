@@ -1070,7 +1070,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     android.hardware.gnss-aidl-service-qti.xml \
-    android.hardware.security.keymint-service.xml \
+    android.hardware.security.keymint-service-qti.xml \
     bttpi-saidl.xml \
     c2_manifest_vendor_audio.xml \
     hyper-default-sec.xml \
@@ -1099,7 +1099,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.keymaster@4.0-strongbox-service-qti \
     android.hardware.secure_element@1.2-service \
-    android.hardware.security.keymint-service.samsung \
+    android.hardware.security.keymint-service-qti \
     nxp.android.hardware.nfc@1.2-service \
     rild \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
